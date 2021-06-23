@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import './componentes/Formulario';
-import './componentes/Listado'
+import './componentes/Listado';
+import './componentes/Item';
 
 function App() {
   const[formulario,setFormulario] = useState(null);
